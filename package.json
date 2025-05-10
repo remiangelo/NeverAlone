@@ -1,14 +1,35 @@
 {
-  "name": "NeverAlone",
+  "name": "never-alone",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
+  "description": "A free, open-source app that helps people in recovery find NA/AA meetings, track their clean time, and reflect daily through journaling and mood tracking.",
   "scripts": {
-    "build": "tsc"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "dependencies": {},
+  "dependencies": {
+    "next": "^15.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "firebase": "^10.5.0",
+    "react-map-gl": "^7.1.0",
+    "mapbox-gl": "^2.15.0",
+    "date-fns": "^2.30.0",
+    "react-icons": "^4.11.0",
+    "@chakra-ui/react": "^2.8.0",
+    "@chakra-ui/icons": "^2.1.0",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "framer-motion": "^10.16.0"
+  },
   "devDependencies": {
-    "typescript": "^5.5.3"
+    "@types/node": "^20.8.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "eslint": "^8.51.0",
+    "eslint-config-next": "^15.3.2",
+    "typescript": "^5.2.2"
   },
   "private": true
 }
