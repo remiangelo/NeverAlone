@@ -19,7 +19,7 @@ Recovery is challenging, but it doesn't have to be lonely. This app aims to:
 ## ✨ Key Features
 
 - 🔍 **Meeting Finder**  
-  Easily locate NA/AA meetings near you by zip code, day of week, or meeting format (in-person/online). View meeting details and locations on an integrated map powered by Mapbox.
+  Easily locate NA/AA meetings near you by zip code, day of week, or meeting format (in-person/online). View meeting details and locations on an integrated map powered by Leaflet.js.
 
 - 📓 **Daily Journal & Mood Tracker**  
   Document your recovery journey with daily reflections. Track emotional patterns over time to identify triggers and growth areas.
@@ -51,7 +51,7 @@ Recovery is challenging, but it doesn't have to be lonely. This app aims to:
 |--------------|------------------------------------|
 | Frontend     | React, Next.js, TypeScript         |
 | UI Framework | Chakra UI with light/dark mode     |
-| Maps         | Mapbox GL, React Map GL            |
+| Maps         | Leaflet.js, React Leaflet          |
 | Backend      | Firebase                           |
 | Authentication | Firebase Auth                    |
 | Data Storage | Firestore with offline capabilities|
